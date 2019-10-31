@@ -1,0 +1,42 @@
+<head>
+    <meta charset="utf-8" /> windows.onload
+    <link rel="stylesheet" href="./css/estilo.css" type="text/css" />
+    <script src="js/ListaDeArticulos.js"></script>
+
+
+
+    <title>Slide Carrito eventos y array Articulos</title>
+</head>
+
+<body>
+
+    <div class="slideshow-container">
+        <div id="catalogo">
+            <!-- En este DIV van los articulos creados a partir de un array JSON-->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>
+
+    <div id="total">
+        <div class="totalaPagar"> Total a pagar: 0€ </div>
+        <button id="vaciar" class="boton"> Vaciar Carro de la Compra                                            </button>
+    </div>
+    <div id="carrito">
+        <!-- En este DIV van los elementos pedidos
+             id de tipo "compra..." donde ... es la id del Articulo -->
+    </div>
+
+
+
+    <script src="./js/AumentarArtVenta.js"></script>
+    <script src="./js/CalcularPrecio.js"></script>
+    <script src="./js/comprar.js"></script>
+    <script src="./js/DisminuirArtVenta.js"></script>
+    <script src="./js/MostrarArtVenta.js"></script>
+    <script src="./js/PonerPagoTotal.js"></script>
+    <script src="./js/Vaciar.js"></script>
+    <script src="./js/CrearArticulosSlide.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/listener.js"></script>
+</body>
